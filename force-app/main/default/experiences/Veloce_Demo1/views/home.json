@@ -1,0 +1,595 @@
+{
+  "appPageId" : "c2b79f6e-a2f1-4603-bcea-f946e6a21b92",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "17c01ed9-5d69-4edb-b278-13a1100f482c",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"add65458-4d67-441f-97c2-3fcfa5bfce18\",\"columns\":[{\"UUID\":\"66c835b2-4f38-462f-8075-d482a5d310e0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "add65458-4d67-441f-97c2-3fcfa5bfce18",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "bannerAlignment" : "center",
+            "bannerLinkAssistiveText" : "",
+            "borderColor" : "rgb(247, 147, 30)",
+            "borderRadius" : 0,
+            "borderWidth" : 10,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "left",
+            "buttonGroupHeight" : 50,
+            "buttonGroupSpacingHorizontal" : "left",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 50,
+            "contentBgColor" : "rgba(255, 255, 255, 0.43)",
+            "contentPadding" : "none",
+            "contentPosition" : "bottom left",
+            "contentWidth" : 32,
+            "height" : 188,
+            "imageFit" : "contain",
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+            "imagePosition" : "center center",
+            "isBannerLink" : false,
+            "overlayColor" : "rgb(42, 41, 107)",
+            "showButtons" : true,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:banner",
+          "id" : "ff82efb2-3b19-4b26-8e25-8ce55d3ee2da",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "rgba(75, 101, 126, 0)",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "x-large",
+                "text" : "Modernize What Matters.",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{\"bold\": true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "45ad6ef0-b269-4722-9e17-dbabd5590a3f",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ee5d5185-e566-4538-a8dc-34b52a22234e",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Veloche_Quiz__c\"}}}}"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "c2716812-0d01-48ce-87ad-2a564d4fa699",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "8fd86b1b-f9fb-45af-8f13-f8f9dc226626",
+            "regionName" : "bannerPrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "f7f8db0e-414c-4eb4-bdf2-0911b63eeb0e",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "6a8cacfa-2a26-4bb2-adef-7684b10596bb",
+            "regionName" : "bannerSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "7f498e37-a535-4404-beac-77deb11ac03c",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ad0cf168-e00a-4818-b081-649e7e43464d",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "x-large",
+            "paddingVertical" : "none",
+            "text" : "Veloce is a proven, strategic, and organized approach to scale low-code/no-code development across federal agencies. Since its inception in 2017, Veloce has been a remarkable success, digitizing at speed and scale for the some of the largest, most complex federal environments. Government agencies can take advantage of Veloce’s repeatable model and empower their business users for the first time to directly apply their experience and expertise to building new and innovative solutions.",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "24bff26e-2e8d-4447-b2e5-8409a53f4ef1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "66c835b2-4f38-462f-8075-d482a5d310e0",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"7e3f4fd4-2b70-4a5a-a8fe-58d20a422792\",\"columns\":[{\"UUID\":\"8b77f5b5-ce55-4317-95d5-fddde73ae39c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"98638c3a-fc17-46fe-83b0-fd4f7ab2a615\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"c595c553-d56a-471c-af00-6377b33888c3\",\"columnName\":\"Column 3\",\"columnKey\":\"col3\",\"columnWidth\":\"4\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "7e3f4fd4-2b70-4a5a-a8fe-58d20a422792",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "large",
+            "text" : "TESTIMONIAL",
+            "textAlign" : "center",
+            "textColor" : "#666666",
+            "textDecoration" : "{\"bold\": true}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "2605ad1f-1209-4651-a84e-02aac409715b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "large",
+            "paddingVertical" : "medium",
+            "text" : "Here's what clients say about us.",
+            "textAlign" : "center",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "4fa6e705-ca40-4829-aec2-d6c9b2b7fbbe",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "alignment" : "center",
+            "fit" : "contain",
+            "height" : 350,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/media/5OU8Z000000pkHa/source?cb=05T8Z00001d42Op\",\"altText\":\"\",\"contentKey\":\"MCOXN24Q75GJGRRGINTTSRJAVMOU\",\"contentType\":null}}",
+            "overlayColor" : "",
+            "position" : "center center",
+            "width" : 56
+          },
+          "componentName" : "dxp_base:image",
+          "id" : "d404ca6b-00be-44f0-a3d3-fac81cc13bb3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8b77f5b5-ce55-4317-95d5-fddde73ae39c",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "borderColor" : "",
+            "borderRadius" : 0,
+            "borderWidth" : 0,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "center",
+            "buttonGroupHeight" : 45,
+            "buttonGroupSpacingHorizontal" : "space-evenly",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 75,
+            "height" : 325,
+            "imageFit" : "contain",
+            "imageHeight" : 33,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-1.png\",\"altText\":\"Derrick Langley - Partner\",\"contentKey\":\"\"}}",
+            "imagePosition" : "top left",
+            "isLink" : false,
+            "linkAssistiveText" : "",
+            "showButtons" : false,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:tile2",
+          "id" : "e2ded279-60c3-4fda-9b9c-16202c47989b",
+          "regions" : [ {
+            "id" : "429c421a-09e3-4e2e-8f38-0a9cec39ffef",
+            "regionName" : "topContentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "none",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "3e028193-8db5-40cc-8583-7f0021908e71",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "d7b329d1-d719-4f56-aa96-50764a323cb7",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "097dab56-c81a-4bcf-a581-01d699caf460",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "243d45a6-f656-4908-869f-a4f16ec8b1eb",
+            "regionName" : "tilePrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "10d0212e-d14c-4da8-80a4-71497c444d3f",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "cb347348-58df-424d-b773-68c06da5a888",
+            "regionName" : "tileSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "0dbbc9b9-0332-4a46-a2f4-a6e83abe812c",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "d011861b-3caa-40b1-9ce1-8eb5b972932b",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "alignment" : "center",
+            "fit" : "contain",
+            "height" : 350,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/media/5OU8Z000000pkMg/source?cb=05T8Z00001d5EY0\",\"altText\":\"\",\"contentKey\":\"MCMI7AZ7IOEFARFP4UFN6ZQQOINE\",\"contentType\":null}}",
+            "overlayColor" : "",
+            "position" : "center center",
+            "width" : 100
+          },
+          "componentName" : "dxp_base:image",
+          "id" : "9cc9e3b9-ec50-413f-93e7-391cf5af3d03",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "98638c3a-fc17-46fe-83b0-fd4f7ab2a615",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "borderColor" : "",
+            "borderRadius" : 0,
+            "borderWidth" : 0,
+            "buttonDirection" : "horizontal",
+            "buttonGroupAlignment" : "center",
+            "buttonGroupHeight" : 45,
+            "buttonGroupSpacingHorizontal" : "space-evenly",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 75,
+            "height" : 325,
+            "imageFit" : "contain",
+            "imageHeight" : 33,
+            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-2.png\",\"altText\":\"Catarina Yan - Partner\",\"contentKey\":\"\"}}",
+            "imagePosition" : "top left",
+            "isLink" : false,
+            "linkAssistiveText" : "",
+            "showButtons" : false,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "center",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:tile2",
+          "id" : "a0b9a7f0-00d3-4fe5-8e8b-312091b9c6eb",
+          "regions" : [ {
+            "id" : "e2d010fe-5f5e-40a5-8c18-83b05d2fd0de",
+            "regionName" : "topContentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "none",
+                "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "ff065b8e-0dd1-4b2e-8e9a-e9b02ca580bc",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "f747d2d7-ae96-403d-b923-d80067c2c620",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "e9264006-64e9-4d15-96b8-f724ba645d73",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "f095aa2b-528f-45fc-add9-1a4e596928c3",
+            "regionName" : "tilePrimaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "2f0063a7-4f5d-4a21-8af0-2b4b343ab3a9",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "3483dc75-0d88-451a-a231-50367220546f",
+            "regionName" : "tileSecondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "46d1fd94-2145-4e2d-8bcd-084a7ac5e3c8",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "33b41ae5-11bb-443c-8156-7195fbc1c7dc",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c595c553-d56a-471c-af00-6377b33888c3",
+        "regionLabel" : "Column 3",
+        "regionName" : "col3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"5c99c1c7-e758-4006-8743-efb4fa3b3189\",\"columns\":[{\"UUID\":\"a087b294-5eb2-4fa2-bc2f-29016b1551e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"6268276c-42b7-40c2-a6e3-0297bf0d672f\",\"columnName\":\"Column 2\",\"columnKey\":\"ca3d1\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "5c99c1c7-e758-4006-8743-efb4fa3b3189",
+      "regions" : [ {
+        "id" : "a087b294-5eb2-4fa2-bc2f-29016b1551e1",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "none",
+            "text" : "Stay in the Loop",
+            "textAlign" : "left",
+            "textDecoration" : "{\"bold\":true}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "7685705e-442b-48f1-b6dc-1a62d571cacd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "none",
+            "text" : "Are you ready to modernize what matters? Learn more about Veloce now.",
+            "textAlign" : "left",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "6d9629a3-eecf-4a47-a4cb-4a6cc2493955",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonAlignment" : "left",
+            "buttonSize" : "standard",
+            "buttonText" : "Submit",
+            "companyLabel" : "Company / Federal Agency",
+            "companyPlaceholder" : "Enter your company name",
+            "customFieldFiveConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldFiveLabel" : "Custom Field Label",
+            "customFieldFivePlaceholder" : "Custom Field Placeholder",
+            "customFieldFourConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldFourLabel" : "Custom Field Label",
+            "customFieldFourPlaceholder" : "Custom Field Placeholder",
+            "customFieldOneConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldOneLabel" : "Custom Field Label",
+            "customFieldOnePlaceholder" : "Custom Field Placeholder",
+            "customFieldThreeConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldThreeLabel" : "Custom Field Label",
+            "customFieldThreePlaceholder" : "Custom Field Placeholder",
+            "customFieldTwoConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+            "customFieldTwoLabel" : "Custom Field Label",
+            "customFieldTwoPlaceholder" : "Custom Field Placeholder",
+            "defaultCompanyValue" : "Company Not Available",
+            "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Email\"}",
+            "emailLabel" : "Email",
+            "emailPlaceholder" : "Enter your email address",
+            "firstNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"FirstName\"}",
+            "firstNameLabel" : "First Name",
+            "firstNamePlaceholder" : "Enter your first name",
+            "isCustomFieldFiveRequired" : false,
+            "isCustomFieldFourRequired" : false,
+            "isCustomFieldOneRequired" : false,
+            "isCustomFieldThreeRequired" : false,
+            "isCustomFieldTwoRequired" : false,
+            "isEmailRequired" : true,
+            "isFirstNameRequired" : false,
+            "isLastNameRequired" : false,
+            "isPhoneRequired" : false,
+            "lastNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"LastName\"}",
+            "lastNameLabel" : "Last Name",
+            "lastNamePlaceholder" : "Enter your last name",
+            "phoneFieldConfig" : "{\"fieldInputType\":\"Phone\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Phone\"}",
+            "phoneLabel" : "Phone",
+            "phonePlaceholder" : "Enter your phone number",
+            "position" : "left",
+            "showCompanyField" : true,
+            "showCustomFieldFive" : false,
+            "showCustomFieldFour" : false,
+            "showCustomFieldOne" : false,
+            "showCustomFieldThree" : false,
+            "showCustomFieldTwo" : false,
+            "showEmailField" : true,
+            "showFirstNameField" : true,
+            "showFormLabels" : true,
+            "showLastNameField" : true,
+            "showPhoneField" : false,
+            "submitActionCustomErrorMessage" : "Looks like something went wrong.",
+            "submitActionSuccessInlineMessage" : "Thank you!",
+            "submitActionSuccessInlineMessageFontSize" : "small",
+            "submitActionSuccessInlineMessagePosition" : "left",
+            "submitActionType" : "inline",
+            "width" : 100
+          },
+          "componentName" : "dxp_form:leadForm",
+          "id" : "86020af3-dbbb-40be-9fc1-6aad09a0f5d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6268276c-42b7-40c2-a6e3-0297bf0d672f",
+        "regionLabel" : "Column 2",
+        "regionName" : "ca3d1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "d5620260-a2db-4fe9-aad7-b976fecd21e5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "312ede2c-f0d2-4ea6-8e73-395f0e9b1298",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "54b87548-4c8d-4c5d-be58-f7d63e681bbd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

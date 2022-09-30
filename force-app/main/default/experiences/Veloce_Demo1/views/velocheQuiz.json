@@ -1,0 +1,230 @@
+{
+  "appPageId" : "c2b79f6e-a2f1-4603-bcea-f946e6a21b92",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "037e0258-98ad-47f1-975e-44e51bad6669",
+  "label" : "Veloche Quiz",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"3e8625e1-ad8a-4e77-b730-a33d3c044200\",\"columns\":[{\"UUID\":\"bb5d5c54-5b6b-4c27-8a55-1e8060c98d97\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "3e8625e1-ad8a-4e77-b730-a33d3c044200",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "rgb(42, 41, 107)",
+            "borderColor" : "",
+            "borderWidth" : 0,
+            "buttonDirection" : "vertical",
+            "buttonGroupAlignment" : "left",
+            "buttonGroupHeight" : 50,
+            "buttonGroupSpacingHorizontal" : "space-evenly",
+            "buttonGroupSpacingVertical" : "space-evenly",
+            "buttonGroupWidth" : 50,
+            "contentBackgroundColor" : "rgb(42, 41, 107)",
+            "contentHeight" : 50,
+            "contentPadding" : "x-large",
+            "contentWidth" : 50,
+            "height" : 236,
+            "imageFit" : "cover",
+            "imageInfo" : "",
+            "imageLocation" : "left",
+            "imagePosition" : "center center",
+            "isLink" : false,
+            "linkAssistiveText" : "",
+            "overlapSize" : 75,
+            "overlayColor" : "rgb(42, 41, 107)",
+            "showButtons" : false,
+            "showSecondaryButton" : false,
+            "singleButtonAlignment" : "left",
+            "width" : 100
+          },
+          "componentName" : "dxp_content_layout:overlap",
+          "id" : "fd3f7103-43cd-41e7-95a3-5f233f1007f2",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Modernize What Matters.",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "9a371ed0-47b5-4bab-82bd-eb4b2daa15a7",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Veloce (pronounced “ve-LOW-che”) is a full lifecycle low-code/no-code (LC/NC) solution that catalyzes the implementation and adoption of emerging digital technologies and platforms.",
+                "textAlign" : "left",
+                "textColor" : "rgb(255, 255, 255)",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+              },
+              "componentName" : "dxp_base:textBlock",
+              "id" : "b2064645-0989-4b94-8f23-a04a1f542396",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "520a7c32-d7b2-4d13-af24-488a40ccef46",
+            "regionName" : "contentRegion",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "e3fe0ddc-842e-463a-b483-6556c83199c2",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "12e3da34-2894-437f-936a-cba51877860a",
+            "regionName" : "primaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Contact Us",
+                "type" : "secondary"
+              },
+              "componentName" : "dxp_base:button",
+              "id" : "2c9a322b-07c6-4003-b5fb-3779d2eb0424",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "b9140467-a49e-4bec-9e42-1909af3e646c",
+            "regionName" : "secondaryButton",
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "dxp_page_layout:placeHolder",
+              "id" : "7fae20d6-4c8e-49b3-a614-8adf777a3bb9",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "71faafdd-1203-4825-a4a7-d4528993fdd7",
+            "regionName" : "placeholder",
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bb5d5c54-5b6b-4c27-8a55-1e8060c98d97",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"fe944d49-e1c2-47d6-b7dd-29edec669814\",\"columns\":[{\"UUID\":\"1c6e5123-2311-4f12-991a-694ce6a68f88\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "fe944d49-e1c2-47d6-b7dd-29edec669814",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "sectionConfig" : "{\"UUID\":\"2ea7d8ee-2ef2-43fc-8bdd-1ee02817a28f\",\"columns\":[{\"UUID\":\"3edec3ed-2a59-4374-aa8f-9d6dadaa672c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"71139fcc-79b1-477c-861d-828612b7d0e7\",\"columnName\":\"Column 2\",\"columnKey\":\"61196\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"9592983c-3501-4d51-8fef-b15385e24181\",\"columnName\":\"Column 3\",\"columnKey\":\"5386d\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}"
+          },
+          "componentName" : "dxp_layout:columns",
+          "id" : "2ea7d8ee-2ef2-43fc-8bdd-1ee02817a28f",
+          "regions" : [ {
+            "id" : "3edec3ed-2a59-4374-aa8f-9d6dadaa672c",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "flowName" : "{\"flowName\":\"Your_Veloce_On_ramp_Accelerator\",\"flowLabel\":\"Your Veloce On-ramp Accelerator!\"}"
+              },
+              "componentName" : "dxp_flow:flow",
+              "id" : "0118fe83-81a8-4641-8c20-75e9f72da67d",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "71139fcc-79b1-477c-861d-828612b7d0e7",
+            "regionLabel" : "Column 2",
+            "regionName" : "61196",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "9592983c-3501-4d51-8fef-b15385e24181",
+            "regionLabel" : "Column 3",
+            "regionName" : "5386d",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1c6e5123-2311-4f12-991a-694ce6a68f88",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c32ea77e-b8f9-49ea-ae59-045195605c02",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Veloche Quiz",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "11a8c0b0-5f0a-4766-91a6-ae47a0707a2f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "41abd187-6a0f-4af7-b4de-5e26e6ee3913",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-veloche-quiz"
+}

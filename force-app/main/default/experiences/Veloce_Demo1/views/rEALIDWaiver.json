@@ -1,0 +1,90 @@
+{
+  "appPageId" : "c2b79f6e-a2f1-4603-bcea-f946e6a21b92",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "a640cda3-acb3-4035-b726-bdbf1d98e0c9",
+  "label" : "REAL-ID Waiver",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"37821414-6615-4119-907b-37225cf16721\",\"columns\":[{\"UUID\":\"99083268-f9ef-48a9-b072-ce7d474100fe\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "37821414-6615-4119-907b-37225cf16721",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "sectionConfig" : "{\"UUID\":\"039e2400-0dcc-4039-9de5-6de5c13735bd\",\"columns\":[{\"UUID\":\"49cc7df9-93b6-4472-9c7a-1bb72f176746\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"020e2ecc-323c-412e-8d1e-4d94fb86341f\",\"columnName\":\"Column 2\",\"columnKey\":\"9ffa5\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0273764e-938d-4983-9c64-1b4003f0a6a4\",\"columnName\":\"Column 3\",\"columnKey\":\"f7858\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+          },
+          "componentName" : "dxp_layout:columns",
+          "id" : "039e2400-0dcc-4039-9de5-6de5c13735bd",
+          "regions" : [ {
+            "id" : "49cc7df9-93b6-4472-9c7a-1bb72f176746",
+            "regionLabel" : "Column 1",
+            "regionName" : "col1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "flowName" : "{\"flowName\":\"Demo_Real_ID_Submit_Driver_s_License_v2_0\",\"flowLabel\":\"Demo : REAL ID: Submit Driver's License : v2.0\"}"
+              },
+              "componentName" : "dxp_flow:flow",
+              "id" : "338c90fd-62e9-419f-a2bc-a629c6ab7ec3",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "020e2ecc-323c-412e-8d1e-4d94fb86341f",
+            "regionLabel" : "Column 2",
+            "regionName" : "9ffa5",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "0273764e-938d-4983-9c64-1b4003f0a6a4",
+            "regionLabel" : "Column 3",
+            "regionName" : "f7858",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "99083268-f9ef-48a9-b072-ce7d474100fe",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "e918d3f8-317c-42ed-978e-c3a549232ca4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "REAL-ID Waiver",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "ed7a122e-eef9-4de0-a781-c50a810e08ac",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3ffacbb4-125f-4ed3-956b-026735e11079",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-real-id-waiver"
+}

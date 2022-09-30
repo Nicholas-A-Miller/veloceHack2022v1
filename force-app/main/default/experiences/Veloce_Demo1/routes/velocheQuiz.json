@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "037e0258-98ad-47f1-975e-44e51bad6669",
+  "appPageId" : "c2b79f6e-a2f1-4603-bcea-f946e6a21b92",
+  "configurationTags" : [ ],
+  "id" : "c5cafc00-1d7f-4319-91c1-070cc19b1c8e",
+  "label" : "Veloche Quiz",
+  "routeType" : "custom-veloche-quiz",
+  "type" : "route",
+  "urlPrefix" : "veloche-quiz"
+}

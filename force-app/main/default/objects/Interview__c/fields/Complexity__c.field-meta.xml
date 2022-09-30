@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complexity__c</fullName>
+    <externalId>false</externalId>
+    <label>Complexity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Batch processing overnight</fullName>
+                <default>false</default>
+                <label>Batch processing overnight</label>
+            </value>
+            <value>
+                <fullName>Complex algorithm(s)</fullName>
+                <default>false</default>
+                <label>Complex algorithm(s)</label>
+            </value>
+            <value>
+                <fullName>Long-running processes that take hours</fullName>
+                <default>false</default>
+                <label>Long-running processes that take hours</label>
+            </value>
+            <value>
+                <fullName>Not applicable (N/A)</fullName>
+                <default>false</default>
+                <label>Not applicable (N/A)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

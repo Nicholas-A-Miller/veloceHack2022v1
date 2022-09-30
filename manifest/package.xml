@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Interview__c.Cloud_Product__c</members>
+		<members>Interview__c.Company_Agency__c</members>
+		<members>Interview__c.Complexity__c</members>
+		<members>Interview__c.Database__c</members>
+		<members>Interview__c.Deployment_Preference__c</members>
+		<members>Interview__c.Development_Team_Status__c</members>
+		<members>Interview__c.Domain__c</members>
+		<members>Interview__c.Email_Address__c</members>
+		<members>Interview__c.Expected_Processes__c</members>
+		<members>Interview__c.Expected_Users__c</members>
+		<members>Interview__c.First_Name__c</members>
+		<members>Interview__c.Last_Name__c</members>
+		<members>Interview__c.New_Featuire_or_New_Product__c</members>
+		<members>Interview__c.Other_Cloud_Platform__c</members>
+		<members>Interview__c.Other_Platform__c</members>
+		<members>Interview__c.Other_Tech_Stack__c</members>
+		<members>Interview__c.Platform__c</members>
+		<members>Interview__c.Tasks__c</members>
+		<members>Interview__c.Tech_Stack__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Interview__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Interview__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Veloce_Demo1</members>
+		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>Your_Veloce_On_ramp_Accelerator</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>Interview__c-Interview %3A No Code %2F Low Code %3A Page Layout</members>
+		<members>Interview__c-Interview Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>flowStagesLWC</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Interview__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>Veloce Demo Profile</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>Interview__c.No_Code_Low_Code</members>
+		<name>RecordType</name>
+	</types>
+	<types>
+		<members>SNA_Veloche_Demo1_sf_default_cdn_eiz8F</members>
+		<name>StaticResource</name>
+	</types>
+	<version>55.0</version>
+</Package>
